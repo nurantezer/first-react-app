@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import {Middle} from "./components/Middle";
+import Footer from "./components/Footer"
 
 function App() {
+
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  <main className="renk" style={{color:"red"}}>
+    <h3>Nuran</h3>
+
+    <Middle/>
+    <Footer/>
+  </main>
+  ) 
+
 }
 
 export default App;
