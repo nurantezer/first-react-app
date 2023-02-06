@@ -1,1 +1,8 @@
-
+header{
+    color: red;
+    text-align: center;  
+}
+ /** burda verirsem bütün headerlar kırmızı olur */
+ footer{
+    text-align: center;
+ }
