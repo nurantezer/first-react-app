@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react'  //*gerek yok artok buna
 
 const footer = () => {
   return (
-    <div>footer</div>
+    <footer>Copyrigth,{new Date().getFullYear()}</footer>
   )
 }
 
