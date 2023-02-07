@@ -1,8 +1,23 @@
-header{
-    color: red;
-    text-align: center;  
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
- /** burda verirsem bütün headerlar kırmızı olur */
- footer{
-    text-align: center;
- }
+
+.content img{
+width: 200px;
+}
+
+.content p{
+    text-align: justify;
+    
+    
+}
+
+footer {
+  color: white;
+  text-align: center;
+  background-color: black;
+  padding: 1rem;
+  margin-top: 2rem;
+}
