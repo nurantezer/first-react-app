@@ -1,10 +1,11 @@
-import Counter from "./Counter"
+
+import UseStateExample from "./UseStateExample"
 
 
 const App = () => {
   return (
     <div>
-    <Counter/>
+    <UseStateExample/>
     </div>
   )
 }
