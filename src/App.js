@@ -1,16 +1,13 @@
-import Card from './components/card/Card';
-import data from './util/data'
+import Events from "./Events";
+
 
 
 const App = () => {
- console.log(data)
+ console.log()
   return (
     <>
-     {data.map((item) =>{
-      const {id,img,btnName,dil} = item;
-      return <Card key={id} img={img} btnName={btnName} dil={dil}/>
-     })}
-      
+    <Events/>
+     
     </>
   );
 }
