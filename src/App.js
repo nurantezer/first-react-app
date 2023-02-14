@@ -1,15 +1,12 @@
-import Events from "./Events";
-
+import Counter from "./Counter"
 
 
 const App = () => {
- console.log()
   return (
-    <>
-    <Events/>
-     
-    </>
-  );
+    <div>
+    <Counter/>
+    </div>
+  )
 }
 
 export default App
