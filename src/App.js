@@ -1,13 +1,15 @@
+import Header from './Header'
+import Content from './Content'
+import Footer from './Footer'
+function App() {
 
-
-
-
-const App = () => {
   return (
-    <div>
-    
-    </div>
-  )
+    <>
+    <Header/>
+    <Content/>
+    <Footer/>
+    </>
+  );
 }
 
-export default App
+export default App;
