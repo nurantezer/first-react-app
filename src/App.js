@@ -1,14 +1,13 @@
-import Header from './Header'
-import Content from './Content'
-import Footer from './Footer'
-function App() {
+import Person from "./components/Person";
+import { data } from "./data";
 
+function App() {
   return (
-    <>
-    <Header/>
-    <Content/>
-    <Footer/>
-    </>
+    <div>
+      {data.map(({ name, img, tel }) => (
+        <Person name={name} img={img} tel={tel} />
+      ))}
+    </div>
   );
 }
 
