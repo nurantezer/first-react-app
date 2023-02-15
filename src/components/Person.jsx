@@ -1,7 +1,8 @@
 import Msg from "./Msg";
 
-const Person = ({ name, tel, img }) => {
+const Person = (props) => {
   //   console.log(props)
+  const {name, img, tel}=props.item
 
   //!   Destrc.
   //   const { name, tel, img } = props
