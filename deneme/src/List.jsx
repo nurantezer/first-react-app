@@ -1,10 +1,10 @@
+import React from "react";
 
-
-const List = ({people}) => {
+const List = ({ people }) => {
   return (
     <>
-      {people.map((item) => {
-        const { id, name, image, age } = item
+      {people.map((i) => {
+        const { id, name, image, age } = i;
         return (
           <article key={id} className="person">
             <img src={image} alt={name} />
@@ -13,10 +13,10 @@ const List = ({people}) => {
               <p>{age} years</p>
             </div>
           </article>
-        )
+        );
       })}
     </>
-  )
-}
+  );
+};
 
-export default List
+export default List;
